@@ -1,0 +1,18 @@
+{
+	"description" : "The CodeIgniter framework",
+	"name" : "codeigniter/framework",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.2.4"
+	},
+
+	"require": {
+        "mos/cimage": "v0.7.9"
+        ,"intervention/image": "2.3.5"
+    	,"froala/wysiwyg-editor-php-sdk" : "2.3.4-rc.1"
+    },
+    
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*"
+	}
+}
