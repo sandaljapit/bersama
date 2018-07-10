@@ -213,6 +213,42 @@ h3 {
   display: block;
 }
 
+/*add code*/
+ .header .navbar-nav > li {
+    margin-left: 0 !important;
+  }
+  #fasilitas .paralax-text {
+    padding-top: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  #fasilitas.count .col-xs-6 h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  #fasilitas.count .description {
+    font-family: 'Open Sans';
+    padding: 1rem 0;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 100;
+    margin: 0;
+    text-transform: none;
+    color: #fff;
+  }
+
+  #fasilitas .list {
+    padding: 20px;
+    margin: 10px 0 20px;
+  }
+
+/* end code*/
+
 body.bodyColor.wrapper {
   margin: 0 auto;
 }
