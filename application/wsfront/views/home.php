@@ -197,7 +197,7 @@
       </div><!-- container -->
     </div><!-- mainContent -->
 
-    <div class="count clearfix wow fadeIn paralax" data-wow-delay="100ms" style="background-image: url(assets/wsfront/img/home/paralax/paralax03.jpg);">
+    <div class="count clearfix wow fadeIn paralax" data-wow-delay="100ms" style="background-image: url(img/home/paralax/paralax03.jpg);">
       <div class="container">
         <div class="row">
           <div class="col-xs-6 col-sm-3">
