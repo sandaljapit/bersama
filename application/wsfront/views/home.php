@@ -1,3 +1,94 @@
+<div class="banner carousel slide" id="recommended-item-carousel" data-ride="carousel">
+  <div class="slides carousel-inner">
+    <div class="item active">
+      <img src="<?php echo base_url('assets/wsfront'); ?>/img/home/slider/slider_image_1.jpg" alt="" />
+      <div class="banner_caption">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="caption_inner animated fadeInUp">
+                <h1>Welcome To Royal College</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis. Mauris porta fermentum volutpat. Praesent est sapien, tincidunt vel arcu vitae, mattis sollicitudin lectus.</p>
+                <a href="about.html">Learn More</a>
+              </div>
+              <!--end caption_inner-->
+            </div>
+          </div>
+          <!--end row-->
+        </div>
+        <!--end container-->
+      </div>
+      <!--end banner_caption-->
+    </div>
+    <div class="item">
+      <img src="<?php echo base_url('assets/wsfront'); ?>/img/home/slider/slider_image_2.jpg" alt="" />
+      <div class="banner_caption">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="caption_inner animated fadeInUp">
+                <h1>Admission going on</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis. Mauris porta fermentum volutpat. Praesent est sapien, tincidunt vel arcu vitae, mattis sollicitudin lectus.</p>
+                <a href="buying-steps.html">Apply Now</a>
+              </div>
+              <!--end caption_inner-->
+            </div>
+          </div>
+          <!--end row-->
+        </div>
+        <!--end container-->
+      </div>
+      <!--end banner_caption-->
+    </div>
+    <div class="item">
+      <img src="<?php echo base_url('assets/wsfront'); ?>/img/home/slider/slider_image_3.jpg" alt="" />
+      <div class="banner_caption">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="caption_inner animated fadeInUp">
+                <h1>Arrange a tour to our college</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis. Mauris porta fermentum volutpat. Praesent est sapien, tincidunt vel arcu vitae, mattis sollicitudin lectus.</p>
+                <a href="contact-us.html">Contact Us</a>
+              </div>
+              <!--end caption_inner-->
+            </div>
+          </div>
+          <!--end row-->
+        </div>
+        <!--end container-->
+      </div>
+      <!--end banner_caption-->
+    </div>
+    <div class="item">
+      <img src="<?php echo base_url('assets/wsfront'); ?>/img/home/slider/slider_image_4.jpg" alt="" />
+      <div class="banner_caption">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="caption_inner animated fadeInUp">
+                <h1>Find your dream course</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis. Mauris porta fermentum volutpat. Praesent est sapien, tincidunt vel arcu vitae, mattis sollicitudin lectus.</p>
+                <a href="course-fullwidth.html">Find Course</a>
+              </div>
+              <!--end caption_inner-->
+            </div>
+          </div>
+          <!--end row-->
+        </div>
+        <!--end container-->
+      </div>
+      <!--end banner_caption-->
+    </div>
+  </div>
+  <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+    <img src="<?php echo base_url('assets/wsfront'); ?>/img/home/slider/prev.png">
+  </a>
+  <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+    <img src="<?php echo base_url('assets/wsfront'); ?>/img/home/slider//next.png">
+  </a>
+</div>
+
 <div class="aboutArea">
   <div class="container">
     <div class="row clearfix">
@@ -203,7 +294,7 @@
   <!-- container -->
 </div>
 <!-- mainContent -->
-<div id="fasilitas" class="count clearfix wow fadeIn paralax" data-wow-delay="100ms" style="background-image: url(assets/wsfront/img/home/paralax/paralax03.jpg);">
+<!-- <div id="fasilitas" class="count clearfix wow fadeIn paralax" data-wow-delay="100ms" style="background-image: url(assets/wsfront/img/home/paralax/paralax03.jpg);">
   <div class="container">
     <div class="paralax-text text-center">
       <h2>Fasilitas Kami</h2>
@@ -219,7 +310,6 @@
           <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis.</p>
         </div>
       </div>
-      <!-- col-sm-3 -->
       <div class="col-xs-6 col-sm-3">
         <div class="text-center">
           <div class="icon"><i class="fa fa-book"></i></div>
@@ -228,7 +318,6 @@
           <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis.</p>
         </div>
       </div>
-      <!-- col-sm-3 -->
       <div class="col-xs-6 col-sm-3">
         <div class="text-center">
           <div class="icon"><i class="fa fa-male"></i></div>
@@ -237,7 +326,6 @@
           <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis.</p>
         </div>
       </div>
-      <!-- col-sm-3 -->
       <div class="col-xs-6 col-sm-3">
         <div class="text-center">
           <div class="icon"><i class="fa fa-map-marker"></i></div>
@@ -246,7 +334,6 @@
           <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis.</p>
         </div>
       </div>
-      <!-- col-sm-3 -->
     </div>
     <div class="row list">
       <div class="col-xs-6 col-sm-3">
@@ -257,7 +344,6 @@
           <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis.</p>
         </div>
       </div>
-      <!-- col-sm-3 -->
       <div class="col-xs-6 col-sm-3">
         <div class="text-center">
           <div class="icon"><i class="fa fa-book"></i></div>
@@ -266,7 +352,6 @@
           <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis.</p>
         </div>
       </div>
-      <!-- col-sm-3 -->
       <div class="col-xs-6 col-sm-3">
         <div class="text-center">
           <div class="icon"><i class="fa fa-male"></i></div>
@@ -275,7 +360,6 @@
           <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis.</p>
         </div>
       </div>
-      <!-- col-sm-3 -->
       <div class="col-xs-6 col-sm-3">
         <div class="text-center">
           <div class="icon"><i class="fa fa-map-marker"></i></div>
@@ -284,12 +368,101 @@
           <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur ante volutpat sem aliquam lobortis.</p>
         </div>
       </div>
-      <!-- col-sm-3 -->
     </div>
-    <!-- row -->
-  </div>
-  <!-- container -->
-</div>
+  </div>\
+</div> -->
+<!-- COURSE CATEGORY -->
+    <section class="courseCategory padding paralax" style="background-image: url(assets/wsfront/img/home/paralax/paralax03a.jpg);">
+      <div class="container">
+        <div class="sectionTitle text-center">
+          <h3>Fasilitas</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4 col-xs-6">
+            <div class="text-box">
+              <div class="text-box-icon">
+                <i class="fa fa-paint-brush" aria-hidden="true"></i>
+              </div>
+              <div class="text-box-top">
+                <h4><a href="">Design</a></h4>
+                <a class="courseNo" href="">10 Course</a>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-xs-6">
+            <div class="text-box">
+              <div class="text-box-icon">
+                <i class="fa fa-music" aria-hidden="true"></i>
+              </div>
+              <div class="text-box-top">
+                <h4><a href="">Music</a></h4>
+                <a class="courseNo" href="">8 Course</a>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-xs-6">
+            <div class="text-box">
+              <div class="text-box-icon">
+                <i class="fa fa-gamepad" aria-hidden="true"></i>
+              </div>
+              <div class="text-box-top">
+                <h4><a href="">Gaming</a></h4>
+                <a class="courseNo" href="">6 Course</a>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-xs-6">
+            <div class="text-box">
+              <div class="text-box-icon">
+                <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+              </div>
+              <div class="text-box-top">
+                <h4><a href="">Technology</a></h4>
+                <a class="courseNo" href="">9 Course</a>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-xs-6">
+            <div class="text-box">
+              <div class="text-box-icon">
+                <i class="fa fa-code" aria-hidden="true"></i>
+              </div>
+              <div class="text-box-top">
+                <h4><a href="">Development</a></h4>
+                <a class="courseNo" href="">12 Course</a>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-xs-6">
+            <div class="text-box">
+              <div class="text-box-icon">
+                <i class="fa fa-camera-retro" aria-hidden="true"></i>
+              </div>
+              <div class="text-box-top">
+                <h4><a href="">Photography</a></h4>
+                <a class="courseNo" href="">4 Course</a>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="btnArea text-center">
+          <a href="" class="btn btn-default commonBtn">View more</a>
+        </div>
+      </div>
+    </section>
 <!-- count -->
 <div class="testimonial-section clearfix">
   <div class="container">
